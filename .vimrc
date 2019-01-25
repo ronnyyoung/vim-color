@@ -3,6 +3,12 @@ syntax on
 " color scheme
 set t_Co=256
 colo molokai
+
+hi Type ctermfg=118 cterm=none
+hi Structure ctermfg=118 cterm=none
+hi Macro ctermfg=161 cterm=bold
+hi PreCondit ctermfg=161 cterm=bold
+
 " encoding dectection
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 

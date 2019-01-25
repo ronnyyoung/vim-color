@@ -54,7 +54,7 @@ if &t_Co > 255
 
    hi Keyword         ctermfg=161               cterm=bold
    hi Label           ctermfg=229               cterm=none
-   hi Macro           ctermfg=161   cterm=bold
+   hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
    hi MatchParen      ctermfg=16  ctermbg=208 cterm=bold
@@ -68,7 +68,7 @@ if &t_Co > 255
    hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
 
-   hi PreCondit       ctermfg=161               cterm=bold
+   hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
    hi Repeat          ctermfg=161               cterm=bold
@@ -85,13 +85,13 @@ if &t_Co > 255
    hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermfg=244 ctermbg=232
    hi StorageClass    ctermfg=208
-   hi Structure       ctermfg=118 cterm=none
+   hi Structure       ctermfg=81
    hi Tag             ctermfg=161
    hi Title           ctermfg=166
    hi Todo            ctermfg=231 ctermbg=232   cterm=bold
 
    hi Typedef         ctermfg=81
-   hi Type            ctermfg=118                cterm=none
+   hi Type            ctermfg=81                cterm=none
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
