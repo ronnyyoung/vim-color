@@ -51,5 +51,4 @@ let g:tagbar_compact = 1
 autocmd BufNewFile,BufRead * :syntax match cfunctions "\<[a-zA-Z_][a-zA-Z_0-9]*\>[^()]*)("me=e-2 
 autocmd BufNewFile,BufRead * :syntax match cfunctions "\<[a-zA-Z_][a-zA-Z_0-9]*\>\s*("me=e-1
 hi cfunctions ctermfg=81
-
-
+hi Visual ctermbg=241
